@@ -43,7 +43,7 @@ const CreatePage=()=> {
                   <label className='label'>
                     <span className='label-text'>Author</span>
                   </label>
-                  <input text="text" placeholder='Book Author' className='input input-bordered' value={author} onChangeCapture={(e)=> setAuthor(e.target.value)} required/>
+                  <input text="text" placeholder='Book Author' className='input input-bordered' value={author} onChange={(e)=> setAuthor(e.target.value)} required/>
                 </div>
                 <div className='form-control mb-4'>
                   <label className='label'>
