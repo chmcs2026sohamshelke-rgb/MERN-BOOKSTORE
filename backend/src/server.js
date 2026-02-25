@@ -7,7 +7,7 @@ import cors from "cors"
 dotenv.config()
 const app=express();
 const port=process.env.port ||3001
-app.use(cors())
+app.use(cors({'https://mern-bookstore-bt54.onrender.com/books'}))
 // app.get('/',(req,res)=>{
 //     res.status(200).json("Hello!")
 //     console.log('hello')
